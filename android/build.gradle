@@ -27,6 +27,7 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
+  namespace "com.stripereactnative"
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
   defaultConfig {
     minSdkVersion 21
